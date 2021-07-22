@@ -16,6 +16,7 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    zoomSelector: '.markdown :not(em) > img',
     navbar: {
       title: 'My Site',
       logo: {
@@ -95,13 +96,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/helmyfikrih/act-docs/edit/master/website/',
+            'https://github.com/helmyfikrih/act-docs/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/helmyfikrih/act-docs/edit/master/website/blog/',
+            'https://github.com/helmyfikrih/act-docs/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -109,5 +110,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [require.resolve('docusaurus-lunr-search'), 'plugin-image-zoom'],
 };
