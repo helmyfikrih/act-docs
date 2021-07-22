@@ -6,7 +6,7 @@ module.exports = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://helmyfikrih.github.io', // Your website URL
-  baseUrl: '/',
+  baseUrl: '/act-docs/',
   projectName: 'helmyfikrih.github.io',
   organizationName: 'endiliey',
   trailingSlash: false,
