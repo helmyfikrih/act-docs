@@ -3,8 +3,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'ACT Documentation',
+  tagline: 'ACT DPM Tools Documentation',
   url: 'https://helmyfikrih.github.io', // Your website URL
   baseUrl: '/act-docs/',
   projectName: 'helmyfikrih.github.io',
