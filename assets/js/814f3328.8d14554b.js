@@ -1,1 +1,0 @@
-(self.webpackChunkact=self.webpackChunkact||[]).push([[631],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/act-docs/blog/welcome"},{"title":"Hello","permalink":"/act-docs/blog/hello-world"},{"title":"Hola","permalink":"/act-docs/blog/hola"}]}')}}]);
