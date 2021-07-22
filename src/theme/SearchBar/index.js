@@ -30,7 +30,7 @@ const Search = props => {
           const a = document.createElement("a");
           a.href = url;
           // Algolia use closest parent element id #__docusaurus when a h1 page title does not have an id
-          // So, we can safely remove it. See https://github.com/facebook/docusaurus/issues/1828 for more details.
+          // So, we can safely remove it. See https://github.com/helmyfikrih/act-docs/issues/1828 for more details.
 
           history.push(url);
         }
