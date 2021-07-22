@@ -9,7 +9,7 @@ module.exports = {
   baseUrl: '/act-docs/',
   projectName: 'helmyfikrih.github.io',
   organizationName: 'helmyfikrih',
-  trailingSlash: false,
+  // trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
