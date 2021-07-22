@@ -1,0 +1,1 @@
+(self.webpackChunkact=self.webpackChunkact||[]).push([[684],{8549:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/act-docs/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/act-docs/blog/tags/hello"}')}}]);
